@@ -2,6 +2,8 @@
 
 This is the eighth project of Full Stack Web Developer Nanodegree Program from `Udacity`.
 
+Access the link [here](http://34.201.100.48.xip.io/)
+
 ## About
 
 The aim of this project is to create and configure a web server to run the Catalog Project, which you can check [here](https://github.com/rbkrebs/udacity_projeto4)
