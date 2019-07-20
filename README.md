@@ -46,6 +46,12 @@ Port 2200
 #ListenAddress 0.0.0.0
 #ListenAddress ::
 ```
+Also, you need to change the permission to prevent root login and the need to force the use of the private key
+then, restart the service. To do so, uncomment and change to `no` the next lines:
+```
+PermitRootLogin no
+PasswordAuthentication no
+```
 then, restart the service
 ```
 service ssh restart
